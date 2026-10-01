@@ -1,22 +1,23 @@
-Java 3 — Kartat dhe faqet
-Prova 1: Lista dhe responsive design
+# RideShare — Java 3
 
-Hapat: Hapa faqen kryesore të RideShare dhe kontrollova listën në modalitetin e telefonit me gjerësi 375px. Kontrollova gjithashtu që të shfaqeshin tri karta udhëtimi: Prishtinë, Fushë Kosovë dhe Lipjan.
+Ruaje këtë skedar si `java-03.md` pranë README në repository-n tënd, jashtë dosjes `aplikacioni/`. Mos shto `.txt` pas emrit. Zëvendëso të gjitha shenjat e plotësimit me atë që ndodhi vërtet. Mjafton një fjali e qartë për çdo provë, por trego çfarë prite dhe çfarë pe.
 
-Rezultati: Në faqen kryesore shfaqen saktësisht tri karta me udhëtime fiktive dhe në gjerësi 375px faqja nuk ka lëvizje horizontale; të gjitha kartat janë të lexueshme.
+## Çfarë ndërtova
+Gjate kesaj jave punova ne pamjen e RideShare dhe ne pregaditjen e faqeve per udhtime.Shtova stilet per kartat, butonat dhe pamjen e pergjithshme te apliakcionit
 
-Prova 2: Detajet e udhëtimit
+## Provat që bëra
+### Prova 1: Lista në telefon
+E hapa faqen kryesore ne pamjen  e telefonit per te kontrolluar si parqiten kartat. Kontrollova  nese  permbajtjten shihet qarte dhe nese faqja mund te perdoret pa levizje anash.
 
-Hapat: Nga lista hapa kartën e dytë dhe kontrollova adresën /udhetimi/2. Kontrollova gjithashtu detajet e udhëtimit dhe provova adresën /udhetimi/99.
+### Prova 2: Detajet e udhëtimit të dytë
+Kontrollova kartën e dyte dhe faqen e detajeve per te pare nese shfaqen informatat e udhetimit dhe vendtakimi.
+Te karta e trete kontrollova paraqitjen e udhetimit pa vende te lira. Gjithashtu kontrollova adresen /udhetimi/99 per te pare si paraqitet nje udhetim qe nuk ekziston
 
-Rezultati: /udhetimi/2 shfaq nisjen, destinacionin, orën, vendtakimin dhe numrin e vendeve të lira. Butoni "Kërko vend" është aktiv sepse udhëtimi 2 ka 1 vend të lirë. /udhetimi/99 shfaq mesazhin "Udhëtimi nuk u gjet" dhe lidhjen për kthim te lista.
+### Prova 3: Kërkesa në pritje
+Kontrollova funksionin e kerkeses per vend dhe paraqitjen e mesazhit "Simulim: Ne pritje". Kerkesa eshte vetem demonstrim dhe nuk kryhet rezervim real. Pastaj kontrollova kthimin te faqja e detajeve dhe lista.
 
-Prova 3: Simulimi i kërkesës dhe kthimi mbrapa
+## Çfarë do të përmirësoj
+Ne e javen tjeter dua te permiresoj pamjen e aplikacionit ne telefon dhe te kontrolloj me mire funksionimin e butonave dhe kalimin ndermjet faqeve.
 
-Hapat: Nga faqja e detajeve hapa faqen e kërkesës dhe kontrollova udhëtimet me dhe pa vende të lira. Kontrollova gjithashtu lidhjet për kthim në faqet e aplikacionit.
-
-Rezultati: Për udhëtimet me vende të lira shfaqet "Simulim: Në pritje". Për kartën 3, e cila ka zero vende të lira, butoni "Nuk ka vende të lira" është i çaktivizuar. Lidhjet e kthimit funksionojnë në të gjitha faqet.
-
-Përfundim
-
-Rrjedha e aplikacionit funksionon sipas specifikimeve: lista → detaje → kërkesë → kthim mbrapa, pa databazë, pagesë ose rezervim real. Aplikacioni është i orientuar për përdorim në pajisje mobile dhe përputhet me dizajnin e skicës.
+## Ndihma nga AI (Artificial Intelligence – inteligjencë artificiale)
+Perdora AI per te kuptuar disa pjese te kodit dhe per te rregulluar stilet e aplikacionit. Kodin e vendosa ne projekt dhe kontrollova hapat gjate punes.
