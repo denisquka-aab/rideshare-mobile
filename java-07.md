@@ -22,8 +22,7 @@ Korrigjimi: U shtua lidhja “Rifresko listen” në gjendjen kur lista është 
 Arsyeja: Pa këtë veprim, përdoruesi nuk mund ta riprovonte ngarkimin nga ekrani bosh.
 
 ## Versionet
-Para: https://github.com/denisquka-aab/rideshare-mobile/commit/
-f5ba8cef964749d570df1cab8de43611ce858b07
+Para: https://github.com/denisquka-aab/rideshare-mobile/commit/f5ba8cef964749d570df1cab8de43611ce858b07
 Pas: https://github.com/denisquka-aab/rideshare-mobile/commit/6ecc97888191c9ffefb35edf79dc3d51af4b7f6e
 
 ## Provat që bëra
