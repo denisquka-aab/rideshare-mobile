@@ -1,4 +1,3 @@
--- Të dhëna fiktive për laboratorin; ekzekutohet në Neon SQL Editor.
 CREATE TABLE IF NOT EXISTS udhetimet (
   id TEXT PRIMARY KEY,
   nisja TEXT NOT NULL,

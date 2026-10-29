@@ -11,7 +11,6 @@ export default async function Kerkesa({
 }) {
   const { id } = await params;
   let udhetim;
-
   try {
     udhetim = await gjejUdhetimin(id);
   } catch {
@@ -33,9 +32,12 @@ export default async function Kerkesa({
       <Link href={`/udhetimi/${id}`}>← Kthehu te detajet</Link>
       {udhetim.vende > 0 ? (
         <>
+          <p className="eyebrow">Kërkesë prove</p>
           <h1>Simulim: Në pritje</h1>
-          <p>Kërkesa për {udhetim.nisja} nuk është dërguar te shoferi.</p>
-          <p>Ruajtjen dhe konfirmimin real do t’i shtojmë më vonë.</p>
+          <p>
+            Kërkesa për {udhetim.nisja} nuk është dërguar te shoferi.
+          </p>
+          <p>Ruajtjen dhe konfirmimin real do t&apos;i shtojmë më vonë.</p>
         </>
       ) : (
         <h1>Nuk ka vende të lira.</h1>

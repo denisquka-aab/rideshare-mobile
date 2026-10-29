@@ -16,3 +16,4 @@ export function KartaUdhetimi({ udhetim }: { udhetim: Udhetim }) {
     </article>
   );
 }
+

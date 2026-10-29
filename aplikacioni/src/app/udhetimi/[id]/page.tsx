@@ -11,7 +11,6 @@ export default async function Detajet({
 }) {
   const { id } = await params;
   let udhetim;
-
   try {
     udhetim = await gjejUdhetimin(id);
   } catch {
@@ -31,12 +30,21 @@ export default async function Detajet({
   return (
     <main>
       <Link href="/">← Kthehu te lista</Link>
+      <p className="eyebrow">Detajet e udhëtimit</p>
       <h1>
         {udhetim.nisja} – {udhetim.destinacioni}
       </h1>
-      <p>Ora: {udhetim.ora}</p>
-      <p>Vendtakimi: {udhetim.vendtakimi}</p>
-      <p>Vende të lira: {udhetim.vende}</p>
+      <div className="details">
+        <p>
+          <strong>Ora:</strong> {udhetim.ora}
+        </p>
+        <p>
+          <strong>Vendtakimi:</strong> {udhetim.vendtakimi}
+        </p>
+        <p>
+          <strong>Vende të lira:</strong> {udhetim.vende}
+        </p>
+      </div>
       {udhetim.vende > 0 ? (
         <Link className="action" href={`/udhetimi/${id}/kerkesa`}>
           Kërko vend

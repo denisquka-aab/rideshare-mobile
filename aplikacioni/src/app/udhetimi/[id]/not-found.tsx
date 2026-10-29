@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function UdhetimiNukUGjet() {
   return (
     <main>
+      <p className="eyebrow">Gabim 404</p>
       <h1>Udhëtimi nuk u gjet</h1>
       <p>Kjo adresë nuk përputhet me një udhëtim në listë.</p>
       <Link className="action" href="/">
@@ -11,3 +12,4 @@ export default function UdhetimiNukUGjet() {
     </main>
   );
 }
+
