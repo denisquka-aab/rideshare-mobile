@@ -3,8 +3,8 @@
 Ruaje këtë raport pranë README në rrënjën e repository-t.
 
 ## Rasti im
-GitHub: Argjentselimi
-Kodi: P7-730
+GitHub: denisquka-aab
+Kodi: P7-142
 Skenari i zgjedhur (numri dhe titulli, nga Rastet 1–5): 1 — Lista dhe detajet
 ID i udhëtimit në projektin tim: 2
 Të dhënat fiktive të rastit: ID 2 për rrjedhën normale; ID 3 për provën me 0 vende; ID 999999 për ID që mungon.
@@ -22,8 +22,9 @@ Korrigjimi: U shtua lidhja “Rifresko listen” në gjendjen kur lista është 
 Arsyeja: Pa këtë veprim, përdoruesi nuk mund ta riprovonte ngarkimin nga ekrani bosh.
 
 ## Versionet
-Para: https://github.com/Argjentselimi/rideshare-mobile/commit/ff9c4994cc059e719eb3cbac20c067ec79151ea0
-Pas: https://github.com/Argjentselimi/rideshare-mobile/commit/dc3d5cdd4805d64f646bd06b819292d224c28221
+Para: https://github.com/denisquka-aab/rideshare-mobile/commit/
+0eaedde3bdca6e9be641c2b0804da2b0c103e0e0
+Pas: https://github.com/denisquka-aab/rideshare-mobile/commit/f5ba8cef964749d570df1cab8de43611ce858b07
 
 ## Provat që bëra
 ### Prova 1

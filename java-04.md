@@ -38,7 +38,7 @@ Rezultatet finale: 13/13 teste kaluan, ESLint kaloi dhe build-i production i Nex
 
 ## Ku gjendet puna
 
-Skema është në `aplikacioni/schema.sql`. Lidhja dhe pyetjet janë në `aplikacioni/src/lib/db.ts` dhe `aplikacioni/src/lib/udhetimet.ts`; faqet janë nën `aplikacioni/src/app/`. `.env.local` dhe `.vercel` janë të përjashtuara nga Git. Repository: https://github.com/AlajdinFetahi/rideshare-mobile
+Skema është në `aplikacioni/schema.sql`. Lidhja dhe pyetjet janë në `aplikacioni/src/lib/db.ts` dhe `aplikacioni/src/lib/udhetimet.ts`; faqet janë nën `aplikacioni/src/app/`. `.env.local` dhe `.vercel` janë të përjashtuara nga Git. Repository: https://github.com/denisquka-aab/rideshare-mobile
 
 ## Çfarë mbetet për përmirësim
 
