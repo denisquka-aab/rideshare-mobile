@@ -23,8 +23,8 @@ Arsyeja: Pa këtë veprim, përdoruesi nuk mund ta riprovonte ngarkimin nga ekra
 
 ## Versionet
 Para: https://github.com/denisquka-aab/rideshare-mobile/commit/
-0eaedde3bdca6e9be641c2b0804da2b0c103e0e0
-Pas: https://github.com/denisquka-aab/rideshare-mobile/commit/f5ba8cef964749d570df1cab8de43611ce858b07
+f5ba8cef964749d570df1cab8de43611ce858b07
+Pas: https://github.com/denisquka-aab/rideshare-mobile/commit/6ecc97888191c9ffefb35edf79dc3d51af4b7f6e
 
 ## Provat që bëra
 ### Prova 1
